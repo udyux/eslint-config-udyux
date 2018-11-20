@@ -5,6 +5,7 @@ module.exports = {
   'array-element-newline': ['warn', { multiline: true }],
   'arrow-body-style': ['error', 'as-needed'],
   'arrow-parens': ['error', 'always'],
+  'babel/generator-star-spacing': 'off',
   'block-scoped-var': 'error',
   'block-spacing': 'warn',
   'callback-return': 'error',
