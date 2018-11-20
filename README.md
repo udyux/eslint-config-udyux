@@ -27,20 +27,13 @@ _Don't forget that extended configs are merged in order, so the last entry takes
 
 ## Documentation
 
-### Plugins
-
-This config makes use of the following plugins:
-
-- [stylelint-order](https://github.com/hudochenkov/stylelint-order)
-- [stylelint-declaration-strict-value](https://github.com/AndyOGo/stylelint-declaration-strict-value)
-- [stylelint-declaration-block-no-ignored-properties](https://github.com/kristerkari/stylelint-declaration-block-no-ignored-properties)
-
 ### Extended configs
 
 This config extends the following configs:
 
-- [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
-- [stylelint-config-recommended-scss](https://github.com/kristerkari/stylelint-config-recommended-scss)
+- [eslint:recommended](https://eslint.org/docs/rules/)
+- [standard](https://github.com/standard/eslint-config-standard)
+- [esnext/style-guide](https://www.npmjs.com/package/eslint-config-esnext)
 
 ---
 
