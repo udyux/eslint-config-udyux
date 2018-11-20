@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-udyux",
+  "version": "0.0.1",
+  "description": "An opinionated and portable eslint config.",
+  "author": "Nicolas Udy <dev@udy.io>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/udyux/eslint-config-udyux.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-esnext": "^4.0.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "fs-extra": "^7.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5"
+  }
+}
