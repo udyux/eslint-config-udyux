@@ -4,6 +4,9 @@
   "description": "An opinionated and portable eslint config.",
   "author": "Nicolas Udy <dev@udy.io>",
   "main": "index.js",
+  "files": [
+    "rules.js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/udyux/eslint-config-udyux.git"
