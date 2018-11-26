@@ -4,7 +4,7 @@ module.exports = {
   'array-callback-return': 'error',
   'array-element-newline': ['warn', { multiline: true }],
   'arrow-body-style': ['error', 'as-needed'],
-  'arrow-parens': ['error', 'always'],
+  'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
   'babel/generator-star-spacing': 'off',
   'block-scoped-var': 'error',
   'block-spacing': 'warn',
