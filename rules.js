@@ -125,7 +125,7 @@ module.exports = {
   'rest-spread-spacing': ['warn', 'never'],
   'semi-spacing': 'off',
   'sort-imports': 'off',
-  'sort-keys': ['warn', 'asc', { caseSensitive: false, natural: true }],
+  'sort-keys': 'off',
   'space-before-blocks': ['warn', 'always'],
   'space-before-function-paren': ['error', { anonymous: 'never', asyncArrow: 'always', named: 'never' }],
   'space-in-parens': ['warn', 'never'],
