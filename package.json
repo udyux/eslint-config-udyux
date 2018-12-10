@@ -5,7 +5,8 @@
   "author": "Nicolas Udy <dev@udy.io>",
   "main": "index.js",
   "files": [
-    "rules.js"
+    "vue.js",
+    "rules/**/*"
   ],
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
     "eslint-plugin-standard": "^4.0.0"
   },
   "devDependencies": {
+    "@vue/eslint-config-prettier": "^4.0.1",
     "eslint": "^5.9.0",
+    "eslint-plugin-vue": "^5.0.0",
     "fs-extra": "^7.0.1"
   },
   "peerDependencies": {
