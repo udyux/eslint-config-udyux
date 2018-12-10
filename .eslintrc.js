@@ -1,3 +1,8 @@
 // https://eslint.org/docs/user-guide/configuring
 
-module.exports = require('./index')
+module.exports = {
+  extends: ['./index.js'],
+  rules: {
+    'no-useless-escape': 'off'
+  }
+}
