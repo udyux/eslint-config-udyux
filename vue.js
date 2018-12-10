@@ -9,12 +9,6 @@ module.exports = {
   },
   settings: {
     'import/ignore': ['\\.s?css$'],
-    'import/parsers': { 'vue-eslint-parser': ['.vue'] },
-    'import/resolver': {
-      alias: {
-        map: [['@', './src']],
-        extensions: ['.js', '.json', '.vue']
-      }
-    }
+    'import/parsers': { 'vue-eslint-parser': ['.vue'] }
   }
 }
