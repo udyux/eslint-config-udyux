@@ -14,7 +14,7 @@ module.exports = {
   'import/no-named-as-default': 'warn',
   'import/no-named-as-default-member': 'warn',
   'import/no-self-import': 'error',
-  'import/no-unassigned-import': ['error', { allow: ['babel-polyfill', 'startup', '*.css', '*.scss'] }],
+  'import/no-unassigned-import': ['error', { allow: ['babel-polyfill', 'startup', '**/*.css', '**/*.scss'] }],
   'import/no-unresolved': 'error',
   'import/no-useless-path-segments': 'error',
   'import/order': 'warn'
