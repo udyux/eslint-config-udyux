@@ -9,7 +9,6 @@ module.exports = {
   'import/no-deprecated': 'warn',
   'import/no-dynamic-require': 'error',
   'import/no-extraneous-dependencies': 'warn',
-  'import/no-internal-modules': 'error',
   'import/no-mutable-exports': 'warn',
   'import/no-named-as-default': 'warn',
   'import/no-named-as-default-member': 'warn',
