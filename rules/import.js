@@ -1,3 +1,5 @@
+const unassignedImports = ['babel-polyfill', '**/startup', '**/*.loader', '**/*.css', '**/*.scss']
+
 module.exports = {
   'import/default': 'error',
   'import/extensions': ['error', 'always', { js: 'never' }],
@@ -13,7 +15,7 @@ module.exports = {
   'import/no-named-as-default': 'warn',
   'import/no-named-as-default-member': 'warn',
   'import/no-self-import': 'error',
-  'import/no-unassigned-import': ['error', { allow: ['babel-polyfill', '**/startup', '**/*.loader', '**/*.css', '**/*.scss'] }],
+  'import/no-unassigned-import': ['error', { allow: unassignedImports }],
   'import/no-unresolved': 'error',
   'import/no-useless-path-segments': 'error',
   'import/order': 'warn'
