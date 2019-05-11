@@ -14,6 +14,11 @@
     "url": "https://github.com/udyux/eslint-config-udyux.git"
   },
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint --fix index.js prettier.js vue.js rules/**/*.js",
+    "preversion": "eslint --fix index.js prettier.js vue.js rules/**/*.js",
+    "postversion": "git push --follow-tags"
+  },
   "dependencies": {
     "@vue/eslint-config-prettier": "^4.0.1",
     "eslint-config-esnext": "^4.0.0",
