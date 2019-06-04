@@ -37,7 +37,6 @@ module.exports = {
   'no-alert': 'error',
   'no-array-constructor': 'off',
   'no-cond-assign': 'error',
-  'no-console': 'off',
   'no-constant-condition': 'error',
   'no-control-regex': 'off',
   'no-duplicate-imports': 'error',
