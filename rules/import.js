@@ -1,4 +1,12 @@
-const unassignedImports = ['babel-polyfill', 'firebase/*', '**/startup', '**/*.loader', '**/*.css', '**/*.scss']
+const unassignedImports = [
+  'babel-polyfill',
+  'firebase/*',
+  '**/startup',
+  '**/*.polyfill',
+  '**/*.loader',
+  '**/*.css',
+  '**/*.scss'
+]
 
 module.exports = {
   'import/default': 'error',
