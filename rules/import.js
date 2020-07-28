@@ -2,10 +2,12 @@ const unassignedImports = [
   'babel-polyfill',
   'firebase/*',
   '**/startup',
+  '**/style/**',
+  '**/styles/**',
   '**/*.polyfill',
   '**/*.loader',
   '**/*.css',
-  '**/*.scss'
+  '**/*.scss',
 ]
 
 module.exports = {
@@ -26,5 +28,5 @@ module.exports = {
   'import/no-unassigned-import': ['error', { allow: unassignedImports }],
   'import/no-unresolved': 'error',
   'import/no-useless-path-segments': 'error',
-  'import/order': 'warn'
+  'import/order': 'warn',
 }
