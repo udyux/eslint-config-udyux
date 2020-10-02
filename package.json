@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-udyux",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "An opinionated and portable eslint config.",
   "author": "Nicolas Udy <dev@udy.io>",
   "main": "index.js",
