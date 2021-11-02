@@ -2,7 +2,8 @@ const rules = require('./rules')
 
 module.exports = {
   env: { browser: true, node: true },
-  extends: ['eslint:recommended', 'standard', 'esnext/style-guide'],
+  plugins: ['babel'],
+  extends: ['eslint:recommended', 'standard'],
   settings: { 'import/ignore': ['\\.s?css$'] },
   rules
 }

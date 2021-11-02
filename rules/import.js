@@ -13,8 +13,10 @@ const unassignedImports = [
 module.exports = {
   'import/default': 'error',
   'import/extensions': ['error', 'always', { js: 'never' }],
+  'import/imports-first': 2,
   'import/named': 'error',
   'import/namespace': 'error',
+  'import/newline-after-import': 2,
   'import/no-absolute-path': 'error',
   'import/no-amd': 'warn',
   'import/no-cycle': 'error',
